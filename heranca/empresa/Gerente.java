@@ -1,12 +1,12 @@
 package heranca.empresa;
 
-public class Gerente {
+public class Gerente extends Funcionario{
     private String nome;
     private Integer telefone;
     private Integer cpf;
     private Double salario;
     private Integer quantidadeGerenciados;
-
+    
     private Gerente(){
 
     }
