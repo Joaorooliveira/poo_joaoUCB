@@ -41,6 +41,7 @@ public class Sistema {
                 default:
                     System.out.println("Opção invalida");
                     break;
+                    
             }
         }
         sc.close();
