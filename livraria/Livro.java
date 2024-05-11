@@ -13,8 +13,7 @@ public class Livro {
         this.titulo = titulo;
         this.nomeAutor = nomeAutor;
         this.anoPublicacao = anoPublicacao;
-        this.editora = editora;
-        
+        this.editora = editora;              
     }
 
     public int getId() {
@@ -68,6 +67,7 @@ public class Livro {
             ", editora='" + getEditora() + "'" +
             "}";
     }
+
 
  }
 
